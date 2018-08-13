@@ -180,10 +180,30 @@
   						<p class="section-description">thewomenprayergroup@gmail.com</p>
   					</div>
   					<div class="col-md-8 col-md-offset-2">
-  						<form  method="post" class="form" role="form">
+						
+						
+					<form  action="mailto:thewomenprayergroup@gmail.com"  method="GET" class="form" role="form">
 							<div class="row">
 								<div class="col-md-6 form-group">
-									<input class="form-control" id="name" name="name" placeholder="Name" type="text" required />
+									<input class="form-control" id="name" name="subject" placeholder="Name" type="text" required />
+								</div>
+								<div class="col-md-6 form-group">
+									<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
+								</div>
+							</div>
+							<textarea class="form-control" id="message" name="body" placeholder="Message" rows="5"></textarea>
+							<br />
+							<div class="row">
+								<div class="col-md-12 form-group">
+									<button class="btn btn-primary" type="submit" value="Send">Submit</button>
+								</div>
+							</div>
+						</form>
+						
+  					<!-- 	<form  method="post" class="form" role="form">
+							<div class="row">
+								<div class="col-md-6 form-group">
+									<input class="form-control" id="name" name="name" type="text" placeholder="Name" type="text" required />
 								</div>
 								<div class="col-md-6 form-group">
 									<input class="form-control" id="email" name="email" placeholder="Email" type="email" required />
@@ -196,7 +216,10 @@
 									<button class="btn btn-primary" type="submit">Submit</button>
 								</div>
 							</div>
-						</form>
+						</form>-->
+						
+						
+						
   					</div>
   				</div><!--/.row-->
   			</div><!--/.container-->
