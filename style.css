@@ -76,6 +76,9 @@ a {
 .color-success {
 	color: #2ecc71;
 }
+.color-pink {
+	color: #ff66cc;
+}
 .color-info {
 	color: #2ecc71;
 }
@@ -102,6 +105,9 @@ a {
 }
 .background-success {
 	background-color: #2ecc71;
+}
+.background-pink {
+	background-color: #ff66cc;
 }
 .background-info {
 	background-color: #2ecc71;
@@ -167,7 +173,15 @@ a {
 	background-color: #2ecc71;
 }
 .btn-success:hover {
-	background-color: #27ae60;
+	background-color: #5e259b;
+}
+
+
+.btn-pink {
+	background-color: #ff66cc;
+}
+.btn-pink:hover {
+	background-color: #5e259b;
 }
 
 .btn-info {
@@ -354,7 +368,7 @@ h2.section-title + p {
 	position: relative;
 	margin-bottom: 30px;
 	overflow: hidden;
-	height: 150px;
+	height: 300px;
 }
 .entry-media a {
 	display: block;
